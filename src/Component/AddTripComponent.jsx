@@ -13,9 +13,9 @@ class AddTripComponent extends Component {
                 <div>
                     <label htmlFor="trip-date">Date:</label><br/>
                     <input id='trip-date' type="date" name='trip-date'/><br/>
-                    <label htmlFor='trip-place'>Place</label><br/>
+                    <label htmlFor='trip-place'>Place:</label><br/>
                     <input id='trip-place' type="text" name='trip-place'/><br/>
-                    <label>Type</label><br/>
+                    <label>Type:</label><br/>
                     <select id='trip-type'>
                         <option>Trek</option>
                         <option>Club</option>

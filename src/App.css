@@ -28,6 +28,26 @@
   transform: scale(1.1);
   filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
 } */
+.home-component{
+  color: white;
+  text-align: center;
+}
+#totalTrips{
+  font-size: 100px
+}
+.trips{
+  font-size: 20px;
+  margin-left: 5px;
+}
+#tripLogs{
+  font-size: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.icons{
+  background-color: #222f3e;
+}
 #progressBar{
   width: 100px;
   height: 10px;
@@ -40,3 +60,55 @@
 #progress{
   margin-left: 10px;
 }
+.add-trip{
+  color: white;
+
+}
+.head-text{
+  font-size: 50px;
+}
+label{
+  font-size: 20px;
+}
+input{
+  height: 40px;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  color: white;
+}
+#trip-date{
+  width: 300px;
+}
+#trip-place{
+  width: 300px;
+}
+select{
+  width: 300px;
+  font-size: 20px;
+  height: 30px;
+  margin-top: 10px;
+}
+button{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 40px;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  margin-top: 10px;
+  width: 100px;
+}
+.list-component{
+color: white;
+text-align: center;
+font-size: 20px;
+}
+.date_bar,.place_bar,.type_bar{
+  border: none;
+border-bottom: solid;
+
+}
+  
